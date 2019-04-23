@@ -28,3 +28,12 @@
     background: lightgray;
     color: red;
 }
+
+.small {
+    width: 5px;
+    padding: 0;
+}
+.big {
+    width: 350px;
+    height: 200px;
+}
