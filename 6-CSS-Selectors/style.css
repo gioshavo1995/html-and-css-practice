@@ -26,3 +26,18 @@ img:hover {
 section {
     text-align: center;
 }
+
+#someId {
+    color: blueviolet;
+    font-size: 30px;
+    display: block;
+}
+
+#someId:hover {
+    color: red;
+}
+
+#someId2 {
+    color: brown;
+    font-size: 30px;
+}
