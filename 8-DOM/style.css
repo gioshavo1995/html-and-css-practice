@@ -1,0 +1,20 @@
+.image-div {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.border {
+    border: 1px solid black;
+    padding: 20px;
+    border-top: 0;
+    margin-top: -4px;
+
+}
+
+.image-div img {
+    width: 100%;
+}
+
+.border a {
+    text-decoration: none;
+}
