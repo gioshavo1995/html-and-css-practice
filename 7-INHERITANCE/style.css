@@ -1,0 +1,30 @@
+
+.button{
+    padding: 10px 40px;
+    outline: none;
+    border: none;
+    background: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.primary.button {
+    background: blue;
+    color: white;
+}
+
+.default.button {
+    border: 1px solid gray;
+}
+
+.dashed.button {
+    border: 1px dashed gray;
+}
+
+.danger.button {
+    border: 1px solid gray; 
+    background: lightgray;
+    color: red;
+}
