@@ -26,13 +26,12 @@ main {
     height: 100px;
 }
 .left .left-2 {
-    height: 200px;
-    margin-top: 10px;
+    height: 210px;
 }
 .right {
     background: red;
     height: 310px;
-    width: 390px;
+    width: 400px;
     float: right;
 }
 
@@ -46,7 +45,7 @@ main {
 
 .bot-right {
     float: right;
-    width: 390px;
+    width: 400px;
     height: 200px;
 }
 
@@ -59,7 +58,7 @@ main {
 
 .bot-right-2 {
     height: 200px;
-    width: 90px;
+    width: 100px;
     background: green;
     float: right;
 }
