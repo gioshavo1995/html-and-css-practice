@@ -1,0 +1,325 @@
+.row {
+    display: flex;
+}
+
+
+.wrapper {
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.top-left-1{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
+
+.top-left-1 div:first-child {
+height: 150px;
+background: red;
+}
+
+.top-left-1 div:last-child {
+height: 50px;
+background: green;
+}
+
+.top-left{
+    flex-direction: row;
+    display: flex;
+}
+
+.top-left-2 {
+     display: flex;
+     flex-direction: column;
+     width: 100px;
+}
+
+.top-left-2 div:first-child {
+    height: 40px;
+    background: blue;
+}
+.top-left-2 div:nth-child(2) {
+    height: 100px;
+    background: yellow;
+}
+.top-left-2 div:last-child {
+    height: 60px;
+    background: red;
+}
+
+.top-left-3 {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+}
+
+.top-left-3 div:first-child {
+    height: 40px;
+    background: black;
+
+}
+
+
+.top-left-3 div:last-child {
+    height: 160px;
+    background: green;
+}
+
+.top-mid {
+    display: flex;
+    flex-direction: column;
+    width: 250px; 
+}
+
+.top-mid div:first-child{
+    height: 40px;
+    background: darkred;
+}
+
+.top-mid div:last-child{
+    height: 160px;
+    background: darkblue;
+}
+
+.top-right{
+    display: flex;
+}
+
+.top-right-1 {
+    display: flex;
+    width: 150px;
+}
+
+.top-right-2{
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+}
+
+.top-right-2 div:first-child {
+    height: 100px;
+    background: red;
+}
+.top-right-2 div:last-child {
+    height: 30px;
+    background: green;
+}
+
+.top-right-3 {
+    display: flex;
+    width: 50px;
+    height: 130px;
+    background: blue;
+}
+
+.top-right-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-right-4{
+    width: 150px;
+    height: 70px;
+    background: black;
+}
+
+.top-right-5{
+    width: 50px;
+    height: 200px;
+    background: red;
+}
+
+.top-right-6 {
+    width: 50px;
+    height: 200px;
+    background: black;
+}
+
+.bot-left-1{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bot-left-1 div:first-child{
+    height: 60px;
+    background: black;
+}
+.bot-left-1 div:nth-child(2){
+    height: 60px;
+    background: green;
+}
+.bot-left-1 div:last-child{
+    height: 80px;
+    background: black;
+}
+.bot-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.bot-left-top {
+    display: flex;
+}
+
+.bot-left-2{
+    display: flex;
+}
+
+.bot-left-3 {
+    width: 125px;
+    height: 200px;
+    background: blue;
+}
+
+.bot-left-4 {
+    display: flex;
+    flex-direction: column;
+    width: 125px;
+}
+
+.bot-left-4 div:first-child{
+    height: 30px;
+    background: red;
+}
+
+.bot-left-4 div:last-child{
+    height: 170px;
+    background: green;
+}
+
+.bot-left-bottom-left {
+    display: flex;
+
+}
+
+.bot-left-bottom-left div.bot-first-1{
+    height: 200px;
+    background: red;
+    width: 50px;
+}
+
+.bot-left-bottom-1 {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.bot-left-bottom-1 div:first-child{
+    height: 50px;
+    background: yellow;
+}
+
+.bot-left-bottom-1 div:last-child{
+    height: 150px;
+    background: blue;
+}
+
+.bot-last-1 {
+    height: 200px;
+    background: red;
+    width: 50px;
+}
+
+.bot-left-right {
+    display: flex;
+    width: 250px;
+    height: 200px;
+    background: black;
+}
+
+.bot-left-bottom {
+    display: flex;
+}
+
+.bot-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-top{
+    display: flex;
+}
+
+.right-top-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-top-1-1 {
+    height: 80px;
+    width: 200px;
+    background: yellow;
+}
+
+.right-top-1-2 {
+    display: flex;
+}
+
+.right-top-1-2-1 {
+    width: 150px;
+    height: 80px;
+    background: red;
+}
+
+.right-top-1-2-2 {
+    width: 50px;
+    height: 80px;
+    background: green;
+}
+
+.right-top-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.right-top-2 div:first-child{
+    width: 50px;
+    height: 80px;
+    background: green;
+}
+
+.right-top-2 div:last-child{
+    width: 50px;
+    height: 80px;
+    background: blue;
+}
+
+.right-mid {
+    display: flex;
+}
+
+.right-mid-left {
+    height: 120px;
+    width: 100px;
+    background: blue;
+}
+
+.right-mid-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-mid-right div{
+    width: 150px;
+    height: 60px;
+}
+
+.right-mid-right div:first-child{
+    background: black;
+}
+
+.right-mid-right div:last-child{
+    background: green;
+}
+
+
+.right-bot-last {
+    display: flex;
+    width: 250px;
+    height: 120px;
+    background: red;
+}
