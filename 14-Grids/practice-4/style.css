@@ -55,15 +55,7 @@ main {
 	grid-template-rows: repeat(5, 1fr);
 	grid-template-columns: repeat(4, 1fr);
 }
-.top-left div, .bottom-right div {
-	background:red;
-}
-.top-middle div, .bottom-left div {
-	background:green;
-}
-.top-right div, .bottom-middle div {
-	background:lightblue;
-}
+
 .col1 {
 	grid-column: 1fr; 
 }
