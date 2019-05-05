@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+main {
+	width:500px;
+	height:600px;
+	margin:auto;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 2fr 1fr;
+}
+main div {
+	background:red;
+}
+
+.col-2 {
+	grid-column: span 2;
+}
+
+.row2 {
+	grid-row: span 2;
+}
+.row3 {
+	grid-row: span 3;
+}
