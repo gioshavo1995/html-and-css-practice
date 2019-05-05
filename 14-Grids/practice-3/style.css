@@ -1,0 +1,22 @@
+* {
+
+	margin:0;
+	padding:0;
+}
+main {
+	width: 910px;
+	grid-template-columns: repeat(8,100px);
+	display: grid;
+	height: 700px;
+	grid-gap: 10px;
+	margin: 0 auto;
+}
+
+
+.col-1 {
+	background: red;
+}
+
+.row2 {
+	    grid-column: span 2;
+}
