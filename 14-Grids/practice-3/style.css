@@ -1,57 +1,56 @@
 body{
     margin: 0;
     padding: 0;
-    width: 1000px;
+    width: 940px;
     margin: 0 auto;
 }
+
+.wrap1 div , .wrap2 div , .wrap3 div , .wrap4 div , .wrap5 div {
+    background: gray;
+}
+
 .wrap1{
     display:grid;
     grid-template-columns: 220px 220px 220px 220px;
     justify-content: space-between;
 }
 .wrap1 > div{
-    /* width: 220px; */
     height: 220px;
-    background: grey;
 }
 .wrap2{
     display:grid;
-    grid-template-columns: repeat(8, auto);
+    grid-template-columns: repeat(8, 100px);
     justify-content: space-between;
     margin-top: 20px;
 }
 .wrap2 > div{
-    width: 100px;
     height: 100px;
-    background: grey;
 }
 .wrap3{
     display:grid;
-    grid-template-columns:720px 220px;
-    justify-content: space-between;
+    grid-template-columns:700px 220px;
+    grid-gap: 20px;
     margin-top: 20px;
 }
 .wrap3 > div{
-    background: grey;
     height: 220px;
 }
 .wrap4{
     display:grid;
-    grid-template-columns:220px 720px;
-    justify-content: space-between;
+    grid-template-columns:220px 700px;
+    grid-gap: 20px;
     margin-top: 20px;
 }
 .wrap4 > div{
-    background: grey;
     height: 220px;
 }
 .wrap5{
     display:grid;
-    grid-template-columns:400px 400px;
-    justify-content: space-between;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 20px;
     margin-top: 20px;
 }
-.wrap5 > div{
-    background: grey;
+.wrap5 > div {
     height: 220px;
+    grid-row: span 2;
 }
